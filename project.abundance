@@ -167,8 +167,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5245559038662486,
-      "y": 0.45783132530120485,
+      "x": 0.43991640543364685,
+      "y": 0.4246987951807229,
       "uniqueID": "id-153",
       "ioValues": [
         {
@@ -178,6 +178,55 @@
         {
           "name": "Shape 2",
           "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5924764890282131,
+      "y": 0.6957831325301205,
+      "uniqueID": "id-186",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "start": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "end": {
+        "x": 10,
+        "y": 10,
+        "z": 0
+      },
+      "text": "label",
+      "color": "#F3EFEF"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6980146290491118,
+      "y": 0.6355421686746988,
+      "uniqueID": "id-189",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     }
@@ -227,6 +276,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-153",
       "ap2ID": "id-23"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-153",
+      "ap2ID": "id-186"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-186",
+      "ap2ID": "id-189"
     }
   ],
   "unitsKey": "MM",
