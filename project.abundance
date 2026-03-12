@@ -96,8 +96,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.61337513061651,
-      "y": 0.22590361445783133,
+      "x": 0.6071055381400209,
+      "y": 0.22891566265060243,
       "uniqueID": "id-23",
       "ioValues": [
         {
@@ -111,8 +111,8 @@
         },
         {
           "name": "color",
-          "ioValue": "#dd863b",
-          "currentEquation": "#dd863b"
+          "ioValue": "#5c4938",
+          "currentEquation": "#5c4938"
         }
       ],
       "start": [
@@ -193,8 +193,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.5559038662486938,
-      "y": 0.47289156626506024,
+      "x": 0.5590386624869383,
+      "y": 0.46987951807228917,
       "uniqueID": "id-186",
       "ioValues": [
         {
@@ -273,8 +273,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6614420062695925,
-      "y": 0.7078313253012049,
+      "x": 0.6750261233019854,
+      "y": 0.6987951807228915,
       "uniqueID": "id-289",
       "ioValues": [
         {
@@ -286,6 +286,29 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5308254963427377,
+      "y": 0.7560240963855422,
+      "uniqueID": "id-301",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
+        }
+      ],
+      "color": "#484848"
     }
   ],
   "allConnectors": [
