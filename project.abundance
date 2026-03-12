@@ -213,7 +213,7 @@
         }
       ],
       "start": [
-        5,
+        0,
         0,
         0
       ],
@@ -269,7 +269,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\nreturn [5,5,5];\n"
+      "code": "Inputs = {}\nreturn [5,5,5];\n"
     }
   ],
   "allConnectors": [
