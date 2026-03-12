@@ -193,8 +193,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.6608996539792388,
-      "y": 0.48656716417910445,
+      "x": 0.5559038662486938,
+      "y": 0.47289156626506024,
       "uniqueID": "id-186",
       "ioValues": [
         {
@@ -203,8 +203,8 @@
         },
         {
           "name": "text",
-          "ioValue": "label",
-          "currentEquation": "label"
+          "ioValue": "lo",
+          "currentEquation": "lo"
         },
         {
           "name": "color",
@@ -222,7 +222,7 @@
         10,
         0
       ],
-      "text": "label",
+      "text": "lo",
       "color": "#F3EFEF"
     },
     {
@@ -251,8 +251,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.5276907001044933,
-      "y": 0.7379518072289156,
+      "x": 0.8808777429467085,
+      "y": 0.22891566265060243,
       "uniqueID": "id-237",
       "ioValues": [
         {
@@ -270,6 +270,22 @@
       ],
       "codeVersion": 1,
       "code": "Inputs = {}\nreturn [5,5,5];\n"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6614420062695925,
+      "y": 0.7078313253012049,
+      "uniqueID": "id-289",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -304,6 +320,11 @@
       "ap2ID": "id-11"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-23",
+      "ap2ID": "id-289"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-113",
       "ap2ID": "id-117"
@@ -322,6 +343,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-153",
       "ap2ID": "id-186"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-153",
+      "ap2ID": "id-289"
     },
     {
       "ap2Name": "geometry",
