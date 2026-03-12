@@ -103,19 +103,29 @@
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
         }
       ],
-      "start": {
-        "x": 4,
-        "y": 0,
-        "z": 5
-      },
-      "end": {
-        "x": 6,
-        "y": 0,
-        "z": 10
-      },
-      "text": "leaf",
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        10,
+        10,
+        0
+      ],
+      "text": "label",
       "color": "#F3EFEF"
     },
     {
@@ -183,32 +193,42 @@
     },
     {
       "atomType": "Label",
-      "x": 0.5924764890282131,
-      "y": 0.6957831325301205,
+      "x": 0.6608996539792388,
+      "y": 0.48656716417910445,
       "uniqueID": "id-186",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "color",
+          "ioValue": "#8dd072",
+          "currentEquation": "#8dd072"
         }
       ],
-      "start": {
-        "x": 10,
-        "y": 0,
-        "z": 0
-      },
-      "end": {
-        "x": 10,
-        "y": 10,
-        "z": 0
-      },
+      "start": [
+        5,
+        0,
+        0
+      ],
+      "end": [
+        10,
+        10,
+        0
+      ],
       "text": "label",
       "color": "#F3EFEF"
     },
     {
       "atomType": "Rotate",
-      "x": 0.6980146290491118,
-      "y": 0.6355421686746988,
+      "x": 0.7820069204152249,
+      "y": 0.6776119402985075,
       "uniqueID": "id-189",
       "ioValues": [
         {
@@ -221,14 +241,35 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "z-axis degrees",
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Code",
+      "x": 0.532871972318339,
+      "y": 0.7343283582089553,
+      "uniqueID": "id-237",
+      "ioValues": [
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "radius",
+          "ioValue": 5
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\nreturn [5,5,5];\n"
     }
   ],
   "allConnectors": [
